@@ -6,7 +6,8 @@ sudo curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 #Install Terraform
 sudo apt-get install wget unzip --yes
 sudo wget https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip
-sudo unzip ./terraform_0.12.13_linux_amd64.zip –d /usr/local/bin
+sudo unzip terraform_0.12.7_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
 
 #Install nodejs
 sudo snap install node --classic --channel=13
